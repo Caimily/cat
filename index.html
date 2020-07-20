@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang=zh>
 <head>
     <!-- so meta -->
     <meta charset="utf-8">
@@ -7,11 +7,13 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="个人博客">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="og:site_name" content="个人博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Base from J.Doe ，Change by Caimily">
+<meta property="article:tag" content="Some idea">
+<meta property="article:tag" content="some actions.">
 <meta name="twitter:card" content="summary">
     
     
@@ -32,7 +34,7 @@
         
     
     <!-- title -->
-    <title>Hexo</title>
+    <title>个人博客</title>
     <!-- styles -->
     
 <link rel="stylesheet" href="/css/style.css">
@@ -60,7 +62,7 @@
     
   
     <div id="title">
-      <h1>Hexo</h1>
+      <h1>个人博客</h1>
     </div>
   </a>
   <div id="nav">
@@ -69,13 +71,13 @@
         <a href="#"><i class="fas fa-bars fa-2x"></i></a>
       </li>
        
-        <li><a href="/">Home</a></li>
+        <li><a href="/">首页</a></li>
        
-        <li><a href="/about/">About</a></li>
+        <li><a href="/about/">关于</a></li>
        
-        <li><a href="/archives/">Writing</a></li>
+        <li><a href="/archives/">归档</a></li>
        
-        <li><a href="/projects_url">Projects</a></li>
+        <li><a href="/projects_url">项目</a></li>
       
     </ul>
   </div>
@@ -86,47 +88,55 @@
   
   
     <p>
-      Find me on
+      在这里找到我：
       
       
       
         
-          <a class="icon" target="_blank" rel="noopener" href="http://github.com/probberechts/cactus-dark">
+          <a class="icon" target="_blank" rel="noopener" href="https://github.com/Caimily">
             <i class="fab fa-github"></i><!--
       ---></a><!--
     ---><!--
-    --->, 
+    --->  
         
       
         
-          <a class="icon" target="_blank" rel="noopener" href="/">
+          <a class="icon" target="_blank" rel="noopener" href="https://space.bilibili.com/74408453">
             <i class="fab fa-twitter"></i><!--
       ---></a><!--
     ---><!--
-    --->, 
+    --->  
         
       
         
-          <a class="icon" target="_blank" rel="noopener" href="/">
+          <a class="icon" target="_blank" rel="noopener" href="https://blog.csdn.net/qq_28930251">
             <i class="fab fa-facebook"></i><!--
       ---></a><!--
     ---><!--
-    --->, 
+    --->  
+        
+      
+        
+          <a class="icon" target="_blank" rel="noopener" href="jju_camile@163.com">
+            <i class="fas fa-envelope"></i><!--
+      ---></a><!--
+      ---><!--
+    --->  
         
       
         
           <a class="icon" target="_blank" rel="noopener" href="/">
-            <i class="fab fa-linkedin"></i><!--
+            <i class="fab fa-Linkin"></i><!--
       ---></a><!--
     ---><!--
-    ---> and 
+    --->   
         
       
         
-          <a class="icon" target="_blank" rel="noopener" href="mailto:name@email.com">
-            <i class="fas fa-envelope"></i><!--
+          <a class="icon" target="_blank" rel="noopener" href="https://blog.csdn.net/qq_28930251">
+            <i class="fab fa-csdn"></i><!--
       ---></a><!--
-      ---><!--
+    ---><!--
     --->.
         
       
@@ -135,7 +145,7 @@
 </section>
 
 <section id="writing">
-  <span class="h1"><a href="/archives">Writing</a></span>
+  <span class="h1"><a href="/archives">文章</a></span>
   
   <ul class="post-list">
     
@@ -156,7 +166,7 @@
 
         <span>
     
-        <a class="" href="/2020/07/20/new-page/">new page</a>
+        <a class="" href="/2020/07/20/new-page/">练习新插入</a>
     
 
 
@@ -176,7 +186,7 @@
 
         <span>
     
-        <a class="" href="/2020/07/20/hello-world/">Hello World</a>
+        <a class="" href="/2020/07/20/hello-world/">服用手册</a>
     
 
 
@@ -196,25 +206,59 @@
     
     
     2016-2020
-    John Doe
+    Base from J.Doe ，Change by Caimily
   </div>
   <div class="footer-right">
     <nav>
       <ul>
          
-          <li><a href="/">Home</a></li>
+          <li><a href="/">首页</a></li>
          
-          <li><a href="/about/">About</a></li>
+          <li><a href="/about/">关于</a></li>
          
-          <li><a href="/archives/">Writing</a></li>
+          <li><a href="/archives/">归档</a></li>
          
-          <li><a href="/projects_url">Projects</a></li>
+          <li><a href="/projects_url">项目</a></li>
         
       </ul>
     </nav>
   </div>
 </footer>
-
+<script language=javascript>
+    function siteTime() {
+        window.setTimeout("siteTime()", 1000);
+        var seconds = 1000;
+        var minutes = seconds * 60;
+        var hours = minutes * 60;
+        var days = hours * 24;
+        var years = days * 365;
+        var today = new Date();
+        var todayYear = today.getFullYear();
+        var todayMonth = today.getMonth() + 1;
+        var todayDate = today.getDate();
+        var todayHour = today.getHours();
+        var todayMinute = today.getMinutes();
+        var todaySecond = today.getSeconds();
+        /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+        year - 作为date对象的年份，为4位年份值
+        month - 0-11之间的整数，做为date对象的月份
+        day - 1-31之间的整数，做为date对象的天数
+        hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+        minutes - 0-59之间的整数，做为date对象的分钟数
+        seconds - 0-59之间的整数，做为date对象的秒数
+        microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+        var t1 = Date.UTC(2017, 09, 11, 00, 00, 00); //北京时间2018-2-13 00:00:00
+        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+        var diff = t2 - t1;
+        var diffYears = Math.floor(diff / years);
+        var diffDays = Math.floor((diff / days) - diffYears * 365);
+        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+        document.getElementById("sitetime").innerHTML = "本站已运行 " +diffYears+" 年 "+diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+    }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
+    siteTime();
+</script>
     </div>
     <!-- styles -->
 
